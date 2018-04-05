@@ -1,4 +1,5 @@
 package cn.edu.myxof;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -39,6 +40,7 @@ public class Solution104 {
 			val = x;
 		}
 	}
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
