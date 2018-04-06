@@ -1,4 +1,7 @@
 package cn.edu.myxof;
+
+import cn.edu.myxof.utils.ListNode;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -8,14 +11,6 @@ package cn.edu.myxof;
  * }
  */
 public class Solution21 {
-	class ListNode {
-		int val;
-		ListNode next;
-
-		ListNode(int x) {
-			val = x;
-		}
-	}
 
 	public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 		ListNode result = null;

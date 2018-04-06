@@ -1,16 +1,8 @@
 package cn.edu.myxof;
 
+import cn.edu.myxof.utils.ListNode;
+
 public class Solution19 {
-
-	static class ListNode {
-		int val;
-		ListNode next;
-
-		ListNode(int x) {
-			val = x;
-		}
-	}
-
 	public ListNode removeNthFromEnd(ListNode head, int n) {
 		ListNode newHead = new ListNode(0);
 		ListNode fast = newHead, slow = newHead;

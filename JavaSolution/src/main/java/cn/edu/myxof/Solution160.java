@@ -1,5 +1,7 @@
 package cn.edu.myxof;
 
+import cn.edu.myxof.utils.ListNode;
+
 public class Solution160 {
 	public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
 		if (headA == null && headB == null)
@@ -48,15 +50,5 @@ public class Solution160 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	}
-
-	public class ListNode {
-		int val;
-		ListNode next;
-
-		ListNode(int x) {
-			val = x;
-			next = null;
-		}
 	}
 }

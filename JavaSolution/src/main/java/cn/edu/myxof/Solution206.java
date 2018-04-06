@@ -1,15 +1,8 @@
 package cn.edu.myxof;
 
-public class Solution206 {
-	
-	class ListNode {
-		int val;
-		ListNode next;
+import cn.edu.myxof.utils.ListNode;
 
-		ListNode(int x) {
-			val = x;
-		}
-	}
+public class Solution206 {
 	
     public ListNode reverseList(ListNode head) {
         ListNode curr = head;

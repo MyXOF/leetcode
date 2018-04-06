@@ -1,5 +1,7 @@
 package cn.edu.myxof;
 
+import cn.edu.myxof.utils.TreeNode;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -30,17 +32,6 @@ public class Solution104 {
 		}
 
 	}
-
-	class TreeNode {
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		TreeNode(int x) {
-			val = x;
-		}
-	}
-	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
